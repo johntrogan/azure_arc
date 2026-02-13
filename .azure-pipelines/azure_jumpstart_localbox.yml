@@ -51,7 +51,7 @@ stages:
 - stage: 'LocalBox_deployment'
   jobs:
   - job: Deploy
-    timeoutInMinutes: 360
+    timeoutInMinutes: 480
     pool:
       name: 'localbox-pool'
       #vmImage: 'ubuntu-latest'
